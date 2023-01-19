@@ -1,0 +1,31 @@
+body {
+    color: #2f80ed;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+  }
+  .main-web{
+    width: 1280px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto 0;
+  }
+  .image-box{
+    margin: 110px 380px 0;
+  }
+  .error{
+  font-size: 120px;
+  margin: 10px 430px 0;
+  font-weight: normal;
+  cursor: pointer;
+  }
+  .main-text{
+  margin: 22px 430px 0;
+  opacity: 0;
+  }
+  .footer-style{
+  margin: 118px 430px 30px;
+  }
+  .error:hover ~ .main-text{
+    opacity: 1;
+  }
